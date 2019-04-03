@@ -10,3 +10,26 @@ body {
   a:hover {
       color: #ffffff
   }
+
+  #portfolio-nav ul {
+      list-style: none;
+  }
+/* commenting here */
+  #portfolio-nav>ul>li {
+      display: inline;
+  }
+
+  #portfolio-nav>ul>li>a {
+      padding: 20px;
+      font-size: 16px;
+      border-radius: 10px;
+      background: green;
+      text-decoration: none;
+  }
+
+  #portfolio-nav>ul>li>a:hover {
+      background: pink;
+      color: #333;
+      border-radius: 0px;
+      transition: all 1s linear;
+  }
